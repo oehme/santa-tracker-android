@@ -3,8 +3,21 @@ Google Santa Tracker for Android
 
 ## About
 
-This repo is a fork of the [Google Santa Tracker app for Android](https://github.com/google/santa-tracker-android).  This for was created to as a companion sample to demonstrate some of the tips and tricks on how to speed up your Android Gradle builds.
+This repo is a fork of the [Google Santa Tracker app for Android](https://github.com/google/santa-tracker-android).  This fork was created to demonstrate some of the tips and tricks on how to speed up your Android Gradle builds.
 
+## What are the build tips?
+1. Use latest Android Gradle plugin
+2. Avoid legacy multidex
+3. Disable multi-APK
+4. Include minimal resources
+5. Disable png crunching
+6. Use Instant Run
+7. Avoid inadvertent changes
+8. Don’t use dynamic versions
+9. Watch the memory
+10. Enable Gradle caching
+
+More details coming...
 ## How to use this repo
 Check out this repo and switch to the agp-2.2.0 branch. This branch contains the pre-optimized build configurations. See [Getting the first build working section](#firstbuild).
 
