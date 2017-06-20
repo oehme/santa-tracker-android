@@ -18,6 +18,15 @@ buildscript {
     }
 }
 
+plugins {
+    id 'com.gradle.build-scan' version '1.8'
+}
+
+buildScan {
+  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+  licenseAgree = 'yes'
+}
+
 subprojects {
     repositories {
         maven {
@@ -78,7 +87,7 @@ ext {
 
     seismic = 'com.squareup:seismic:1.0.2'
     glide = 'com.github.bumptech.glide:glide:3.6.1'
-    
+
     sugarOrm = 'com.github.satyan:sugar:1.4'
 
     easypermissions = 'pub.devrel:easypermissions:0.2.1'
